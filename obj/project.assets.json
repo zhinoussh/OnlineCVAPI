@@ -12530,6 +12530,7 @@
   "projectFileDependencyGroups": {
     ".NETCoreApp,Version=v2.0": [
       "Microsoft.AspNetCore.All >= 2.0.3",
+      "Microsoft.EntityFrameworkCore.Design >= 2.0.1",
       "Microsoft.EntityFrameworkCore.SqlServer >= 2.0.1",
       "Microsoft.NETCore.App >= 2.0.0"
     ]
@@ -12584,6 +12585,10 @@
           "Microsoft.AspNetCore.All": {
             "target": "Package",
             "version": "2.0.3"
+          },
+          "Microsoft.EntityFrameworkCore.Design": {
+            "target": "Package",
+            "version": "2.0.1"
           },
           "Microsoft.EntityFrameworkCore.SqlServer": {
             "target": "Package",

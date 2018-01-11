@@ -1,0 +1,10 @@
+D:\samples\OnlineCVAPI\bin\Debug\netcoreapp2.0\OnlineCVAPI.deps.json
+D:\samples\OnlineCVAPI\bin\Debug\netcoreapp2.0\OnlineCVAPI.runtimeconfig.json
+D:\samples\OnlineCVAPI\bin\Debug\netcoreapp2.0\OnlineCVAPI.runtimeconfig.dev.json
+D:\samples\OnlineCVAPI\bin\Debug\netcoreapp2.0\OnlineCVAPI.dll
+D:\samples\OnlineCVAPI\bin\Debug\netcoreapp2.0\OnlineCVAPI.pdb
+D:\samples\OnlineCVAPI\obj\Debug\netcoreapp2.0\OnlineCVAPI.csproj.CoreCompileInputs.cache
+D:\samples\OnlineCVAPI\obj\Debug\netcoreapp2.0\OnlineCVAPI.AssemblyInfoInputs.cache
+D:\samples\OnlineCVAPI\obj\Debug\netcoreapp2.0\OnlineCVAPI.AssemblyInfo.cs
+D:\samples\OnlineCVAPI\obj\Debug\netcoreapp2.0\OnlineCVAPI.dll
+D:\samples\OnlineCVAPI\obj\Debug\netcoreapp2.0\OnlineCVAPI.pdb
