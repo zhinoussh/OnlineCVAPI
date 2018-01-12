@@ -15,6 +15,8 @@ namespace OnlineCVAPI.Models
         
         public int profileId { get; set; }
         public int templateId { get; set; }
+                
+        [StringLength(50)]
         public string creationDateTime { get; set; }
         
         [ForeignKey("profileId")]
