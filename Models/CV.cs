@@ -4,7 +4,7 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace OnlineCVAPI.Models
 {
-    public class CV
+    public class CV : TEntity
     {
         public CV()
         {
@@ -12,8 +12,7 @@ namespace OnlineCVAPI.Models
             Educations=new HashSet<Education>();
             Experiences=new HashSet<Experience>();
         }
-        [Key]
-        public int Id { get; set; }
+        
         public int profileId { get; set; }
         public int templateId { get; set; }
         public string creationDateTime { get; set; }

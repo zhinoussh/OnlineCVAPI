@@ -3,10 +3,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace OnlineCVAPI.Models
 {
-    public class Education
+    public class Education : TEntity
     {
-        [Key]
-        public int ID { get; set; }
         public string institute { get; set; }
         public string graduationYear { get; set; }
 

@@ -3,14 +3,12 @@ using System.ComponentModel.DataAnnotations;
 
 namespace OnlineCVAPI.Models
 {
-    public class PersonalProfile
+    public class PersonalProfile : TEntity
     {
         public PersonalProfile()
         {
             CVs=new HashSet<CV>();
         }
-        [Key]
-        public int Id { get; set; }
         public string firstName { get; set; }
         public string lastName { get; set; }
         public string phoneNumber { get; set; }
