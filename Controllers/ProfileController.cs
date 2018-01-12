@@ -9,10 +9,10 @@ using OnlineCVAPI.Models;
 namespace OnlineCVAPI.Controllers
 {
     [Route("api/[controller]")]
-    public class Profileontroller : Controller
+    public class ProfileController : Controller
     {
         private IPersonalProfileService _profileservice;
-        public Profileontroller(IPersonalProfileService profileservice)
+        public ProfileController(IPersonalProfileService profileservice)
         {
             _profileservice=profileservice;
         }
