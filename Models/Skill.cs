@@ -6,6 +6,7 @@ namespace OnlineCVAPI.Models
     public class Skill : TEntity
     {
         [StringLength(50)]
+        [Required]
         public string skillName { get; set; }
 
         [StringLength(50)]

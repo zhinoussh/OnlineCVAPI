@@ -16,12 +16,12 @@ namespace OnlineCVAPI.Controllers
         {
             _profileservice=profileservice;
         }
-        // GET api/values
-        // [HttpGet]
-        // public IEnumerable<string> Get()
-        // {
-        //     return new string[] { "value1", "value2" };
-        // }
+        // GET api/proflie
+        [HttpGet]
+        public IEnumerable<string> Get()
+        {
+            return new string[] { "profile1", "profile2" };
+        }
 
         // // GET api/values/5
         // [HttpGet("{id}")]
@@ -30,7 +30,7 @@ namespace OnlineCVAPI.Controllers
         //     return "value";
         // }
 
-        // POST api/values
+        // POST api/profile
         [HttpPost]
         public IActionResult Post([FromBody]PersonalProfile profile)
         {

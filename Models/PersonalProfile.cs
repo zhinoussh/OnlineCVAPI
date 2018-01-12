@@ -10,15 +10,19 @@ namespace OnlineCVAPI.Models
             CVs=new HashSet<CV>();
         }
         [StringLength(50)]
+        [Required]
         public string firstName { get; set; }
 
         [StringLength(50)]
+        [Required]
         public string lastName { get; set; }
 
         [StringLength(10)]
+        [Required]
         public string phoneNumber { get; set; }
 
         [StringLength(50)]
+        [Required]
         public string email { get; set; }
 
         [StringLength(100)]

@@ -6,18 +6,23 @@ namespace OnlineCVAPI.Models
     public class Experience : TEntity
     {
         [StringLength(50)]
+        [Required]
         public string jobTitle { get; set; }
 
         [StringLength(50)]
+        [Required]        
         public string Employer { get; set; }
         
         [StringLength(50)]
+        [Required]        
         public string Location { get; set; }
         
         [StringLength(4)]
+        [Required]        
         public string startMonth { get; set; }
         
         [StringLength(4)]
+        [Required]        
         public string startYear { get; set; }
 
         [StringLength(4)]
